@@ -1,4 +1,33 @@
 {
   "schema_version": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": "hello_plugin",
+      "repositoryUrl": "https://github.com/shengjiezhang1019-creator/maibot-plugin-hello",
+      "commit": "4989821f448e7bc396057fc966794f235a7a7e46",
+      "sha256": "a314f7fad274bd921c2963f5b7e47f0d0d3fbe1b88f2e5c600cabb079fc36b7f",
+      "manifest": {
+        "name": "hello_plugin",
+        "display_name": "Hello 测试插件",
+        "version": "0.1.0",
+        "description": "用于验证 GitHub 插件市场、插件加载和 Tool 调用链的最小示例插件。",
+        "plugin_api_version": "1.0",
+        "author": {
+          "name": "MaiBot Community"
+        },
+        "license": "MIT",
+        "host_application": {
+          "min_version": "0.11.0",
+          "max_version": "0.11.99"
+        }
+      },
+      "comp_types": [
+        "tool"
+      ],
+      "tags": [
+        "example",
+        "testing"
+      ]
+    }
+  ]
 }
