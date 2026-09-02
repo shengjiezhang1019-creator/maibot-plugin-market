@@ -28,6 +28,36 @@
         "example",
         "testing"
       ]
+    },
+    {
+      "id": "barrage_batch_recorder",
+      "repositoryUrl": "https://github.com/shengjiezhang1019-creator/maibot-plugin-barrage-batch-recorder",
+      "commit": "5ecfe3c26b9b9b00c1070041cbbd9479f15837e5",
+      "sha256": "fafcc85c65699ced4f202685ebe009c64161eeec84288aa031dfa1ab7d56810e",
+      "manifest": {
+        "name": "barrage_batch_recorder",
+        "display_name": "弹幕批次记录器",
+        "version": "0.1.0",
+        "description": "在 BARRAGE_SELECTION 的 observer 通道后台记录弹幕批次并按直播流统计高频词。",
+        "plugin_api_version": "1.0",
+        "author": {
+          "name": "MaiBot"
+        },
+        "license": "GPL-3.0",
+        "host_application": {
+          "min_version": "0.11.0",
+          "max_version": "0.11.99"
+        }
+      },
+      "comp_types": [
+        "tool"
+      ],
+      "tags": [
+        "barrage",
+        "observer",
+        "logging",
+        "word-frequency"
+      ]
     }
   ]
 }
